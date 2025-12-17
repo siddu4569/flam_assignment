@@ -1,3 +1,14 @@
+# video
+## Demo Video
+
+<video src="<video controls src="src/video.mp4" title="Title"></video>" controls width="600"></video>
+
+If video doesn’t load:  
+[Click here to watch](src/video.mp4)
+
+
+
+
 # Interactive Cubic Bézier Curve with Spring Physics
 ##input->mouse.js
 =>catching mouse movement
