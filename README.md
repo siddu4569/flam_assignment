@@ -1,10 +1,10 @@
-# video
+
 ## Demo Video
 
-<video src="./src/video.mp4"  controls width="600"></video>
 
 
-[Click here to watch](src/video.mp4)
+
+![Click here to watch](src/video.mp4)
 
 
 
