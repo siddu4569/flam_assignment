@@ -1,9 +1,9 @@
 # video
 ## Demo Video
 
-<video src="src/video.mp4"  controls width="600"></video>
+<video src="./src/video.mp4"  controls width="600"></video>
 
-If video doesn’t load:  
+
 [Click here to watch](src/video.mp4)
 
 
