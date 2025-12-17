@@ -5,7 +5,6 @@ export class SpringPoint {
         this.position = { x, y };
         this.velocity = { x: 0, y: 0 };
         this.target = { x, y };
-
         this.k = k;           
         this.damping = damping; 
     }
