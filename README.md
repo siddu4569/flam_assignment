@@ -1,7 +1,7 @@
-           # Interactive Cubic Bézier Curve with Spring Physics
-## 1. Bézier Curve Math
-* **P0, P3** – fixed 
-* **P1, P2** – dynamic
+# Interactive Cubic Bézier Curve with Spring Physics
+1. Bézier Curve Math
+* *P0, P3* – fixed 
+* *P1, P2* – dynamic
 
 equation:
 B(t) = (1−t)³P0 + 3(1−t)²tP1 + 3(1−t)t²P2 + t³P3
