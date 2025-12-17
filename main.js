@@ -36,8 +36,8 @@ function animate() {
     requestAnimationFrame(animate);
 
     // Mouse position controls the target
-    P1.setTarget(mouse.x -50, mouse.y);
-    P2.setTarget(mouse.x +50, mouse.y);
+    P1.setTarget(mouse.x -150, mouse.y+150);
+    P2.setTarget(mouse.x +150, mouse.y-150);
 
     // Update physics
     P1.update();
