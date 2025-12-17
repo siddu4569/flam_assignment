@@ -2,18 +2,18 @@
 ##input->mouse.js
 =>catching mouse movement
 
-##math->bezier.js
-=>curve,tangent eqs
+## math->bezier.js
+=> curve,tangent eqs
 
-##math->vector.js
-=>small functions for reuasbility
+## math->vector.js
+=> small functions for reuasbility
 
-##physics->spring.js
-=>adjustments for physics related to curve like damping,vel etc...
+## physics->spring.js
+=> adjustments for physics related to curve like damping,vel etc...
 
 
-##render->draw.js
-=>drawing curve,getting points and small tangents
+## render->draw.js
+=> drawing curve,getting points and small tangents
 
 
 for main.js->integrating
@@ -22,7 +22,7 @@ for main.js->integrating
 
 
 
-##1. Bézier Curve Math
+## 1. Bézier Curve Math
 * *P0, P3* – fixed 
 * *P1, P2* – dynamic
 
