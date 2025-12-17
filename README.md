@@ -2,7 +2,11 @@
 ## Demo Video
 
 
-<video src="src/video.mp4" controls width="600"></video>
+<video width="700" controls>
+  <source src="src/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ![Click here to watch](src/video.mp4)
 
