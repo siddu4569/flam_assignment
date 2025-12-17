@@ -4,8 +4,6 @@ import { normalize, add, mul } from "../math/vector.js";
 export function clear(ctx, canvas) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
-
-// Draw the curve path
 export function drawBezier(ctx, P0, P1, P2, P3) {
     const points = sampleBezier(P0, P1, P2, P3, 0.01);
 
@@ -22,7 +20,7 @@ export function drawBezier(ctx, P0, P1, P2, P3) {
     ctx.stroke();
 }
 
-// Draw small circles for control points
+
 export function drawControlPoints(ctx, P0, P1, P2, P3) {
     const points = [P0, P1, P2, P3];
 
@@ -35,7 +33,7 @@ export function drawControlPoints(ctx, P0, P1, P2, P3) {
     }
 }
 
-// Draw tangents at intervals along the curve
+
 export function drawTangents(ctx, P0, P1, P2, P3) {
     ctx.strokeStyle = "#f40810ff";
     ctx.lineWidth = 2;
@@ -43,8 +41,6 @@ export function drawTangents(ctx, P0, P1, P2, P3) {
     for (let t = 0; t <1; t += 0.1) {
         const point = bezierPoint(P0, P1, P2, P3, t);
         const tangent = normalize(bezierTangent(P0, P1, P2, P3, t));
-
-        // scale tangent
         const end = add(point, mul(tangent, 40));
 
         ctx.beginPath();
@@ -55,7 +51,7 @@ export function drawTangents(ctx, P0, P1, P2, P3) {
 }
 
 
-// Helper to compute a single point on the curve
+
 function samplePoint(P0, P1, P2, P3, t) {
-    return sampleBezier(P0, P1, P2, P3, t)[0]; // quick hack: reuse logic
+    return sampleBezier(P0, P1, P2, P3, t)[0]; 
 }

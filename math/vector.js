@@ -1,4 +1,4 @@
-// Basic 2D vector operations
+
 
 export function vec(x, y) {
     return { x, y };

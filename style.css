@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #0d0d0d; /* dark background */
+    background: #0d0d0d; 
 }
 
 #canvas {
