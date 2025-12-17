@@ -1,7 +1,7 @@
 # video
 ## Demo Video
 
-<video src="<video controls src="src/video.mp4" title="Title"></video>" controls width="600"></video>
+<video src="src/video.mp4" title="Title"></video>" controls width="600"></video>
 
 If video doesn’t load:  
 [Click here to watch](src/video.mp4)
